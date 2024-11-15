@@ -20,6 +20,6 @@ const fs = require('fs').promises;
     ]);
     console.log(answer, readFile);
   } catch (error) {
-    console.error('Лошара', error);
+    console.error('Лошара true', error);
   }
 })();
