@@ -1,6 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs').promises;
 
+console.log('test');
+
+
 (async () => {
   try {
     const readFile = await fs.readFile('./topics/raccoon_flashcard_data.txt', 'utf-8');
